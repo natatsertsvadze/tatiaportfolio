@@ -1,0 +1,146 @@
+@media all and (max-width: 768px) {
+  body {
+    padding: 5%;
+    margin: 0;
+  }
+  .main-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .tatia-title {
+    font-size: larger;
+    align-self: flex-start;
+  }
+  .main-text h1 {
+    font-size: medium;
+    margin-top: 2%;
+  }
+  footer p {
+    font-size: x-small;
+  }
+  .logo-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .logos {
+    gap: 7px;
+  }
+
+  .menu-icon {
+    display: block;
+    align-self: flex-end;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    width: 100%;
+    background-color: rgba(221, 221, 221, 0.941);
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+  }
+  .menu2 {
+    display: block;
+    text-align: right;
+    margin-bottom: 3%;
+  }
+  .text-title {
+    font-size: large;
+  }
+  .paragraph {
+    font-size: small;
+  }
+  .images, .images-red {
+    grid-template-columns: 1fr;
+    margin: 0;
+  width: 100vw;
+  max-width: 100%;
+  display: block;
+  }
+  .prev, .next, .nexto, .prevo {
+    font-size: larger;
+  }
+  .video-text-gardens {
+    flex-direction: column;
+  }
+  .video-gardens {
+    height: 750px;
+  }
+  .text-of-gardens {
+    width: auto;
+  }
+  .video-tree, .video-child, .video-voices {
+    width: 375px;
+  }
+  .image-descr {
+    flex-direction: column;
+    margin-bottom: 7%;
+  }
+  .h1-h2 {
+    align-self: flex-start;
+    font-size: medium;
+    margin-left: 0;
+    margin-top: 2%;
+  }
+  .h1-h2 h2 {
+    margin-top: 2%;
+  }
+  .projects-image {
+    width: auto;
+  }
+  .images-div {
+    margin-bottom: 5%;
+  }
+  footer {
+    padding-top: 2%;
+  }
+
+  }
+
+  @media all and (min-width:768px) and (max-width:1200px) {
+    body {
+      padding: 2%;
+    }
+    .main-text h1 {
+      font-size: medium;
+      margin-top: 2%;
+    }
+    .menu2 {
+      gap: 59px;
+    }
+    footer {
+      padding-top: 2%;
+    }
+    footer p {
+      font-size: small;
+    }
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .logos {
+      gap: 13px;
+    }
+    .text-title {
+      font-size: larger;
+    }
+    .paragraph{
+      font-size: medium;
+    }
+    .gardens-header {
+      margin-top: 10px;
+    }
+    .gardens-p {
+      margin-right: 2%;
+    }
+    .video-tree, .video-child, .video-voices {
+      width: 768px;
+      align-self: center;
+    }
+    .h1-h2 {
+      font-size: medium;
+    }
+
+  }
