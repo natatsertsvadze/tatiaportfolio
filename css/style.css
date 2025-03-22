@@ -176,6 +176,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     color: black;
+    padding-top: 2%;
 }
 .logos {
     display: flex;
@@ -339,16 +340,13 @@ footer {
 .link {
   color: blue;
 }
-footer {
-  padding-top: 5%;
-}
 .images-art {
   padding-top: 5%;
 }
 .projects-image:hover {
   opacity: 80%;
 }
-.video:hover {
+.video-main:hover {
   opacity: 80%;
 }
 .about-section {
