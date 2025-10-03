@@ -154,6 +154,9 @@ header {
     border: none;
 }
 .close {
+  color: #303030;
+}
+.close {
     top: 20px;
     right: 20px;
     font-size: 35px;
@@ -192,6 +195,10 @@ footer {
 
 .video {
   margin-top: 1rem;
+}
+
+.video-49 {
+  margin-top: 3rem;
 }
 
 .video-text-gardens {
